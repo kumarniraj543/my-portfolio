@@ -1,4 +1,43 @@
-.home {
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+.hero {
   text-align: center;
-  margin-top: 100px;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #38bdf8;
+  border: none;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.skills {
+  text-align: center;
+  padding: 40px;
+}
+
+.skill-list {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.skill-list span {
+  background: #1e293b;
+  padding: 10px 15px;
+  border-radius: 20px;
 }
